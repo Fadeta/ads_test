@@ -133,43 +133,11 @@ class _DashboardScreenState extends State<DetailScreen> {
                         SizedBox(
                           height: 10,
                         ),
-                        Row(
-                          children: [
-                            Icon(
-                              Icons.star,
-                              color: Colors.amber,
-                            ),
-                            RichText(
-                              textAlign: TextAlign.start,
-                              text: const TextSpan(
-                                  text: "5.0",
-                                  style: TextStyle(
-                                    color: Colors.black54,
-                                    fontSize: 16.0,
-                                  )),
-                            ),
-                            SizedBox(
-                              width: 5,
-                            ),
-                            RichText(
-                              textAlign: TextAlign.start,
-                              text: const TextSpan(
-                                  text: "(1125 Review)",
-                                  style: TextStyle(
-                                    color: Colors.black45,
-                                    fontSize: 16.0,
-                                  )),
-                            ),
-                          ],
-                        ),
-                        SizedBox(
-                          height: 10,
-                        ),
                         RichText(
                           textAlign: TextAlign.start,
                           text: const TextSpan(
                               text:
-                                  "Men's sneakers are made with leather upper features for durability and support, while perforations provide airflow during every shoe wear.",
+                                  "The Max Air 270 unit delivers unrivaled, all-day comfort. The sleek, running-inspired design roots you to everything Nike........",
                               style: TextStyle(
                                 color: Colors.black45,
                                 fontSize: 16.0,
@@ -177,15 +145,6 @@ class _DashboardScreenState extends State<DetailScreen> {
                         ),
                         SizedBox(
                           height: 10,
-                        ),
-                        RichText(
-                          textAlign: TextAlign.start,
-                          text: const TextSpan(
-                              text: "Select Color :",
-                              style: TextStyle(
-                                color: Colors.black87,
-                                fontSize: 20.0,
-                              )),
                         ),
                         SizedBox(
                           height: 80,
