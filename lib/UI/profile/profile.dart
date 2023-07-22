@@ -64,15 +64,13 @@ class ProfileScreen extends StatelessWidget {
               backgroundImage: AssetImage('assets/images/profile.jpg'),
             ),
             const SizedBox(height: 20),
-            itemProfile('Name', 'Ahad Hashmi', CupertinoIcons.person),
+            itemProfile('Name', 'Fadeta Ilhan', CupertinoIcons.person),
             const SizedBox(height: 10),
-            itemProfile('Phone', '03107085816', CupertinoIcons.phone),
+            itemProfile('Phone', '081553821808', CupertinoIcons.phone),
             const SizedBox(height: 10),
-            itemProfile(
-                'Address', 'abc address, xyz city', CupertinoIcons.location),
+            itemProfile('Address', 'Surabaya, City', CupertinoIcons.location),
             const SizedBox(height: 10),
-            itemProfile(
-                'Email', 'ahadhashmideveloper@gmail.com', CupertinoIcons.mail),
+            itemProfile('Email', 'fadeta287@gmail.com', CupertinoIcons.mail),
             const SizedBox(
               height: 20,
             ),
